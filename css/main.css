@@ -1,0 +1,82 @@
+/* Global styles
+--------------------------------------------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "FontName", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #404040;
+}
+
+a {
+  color: #4169E1;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #1f49c7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Warning! Delete global <ul> styling if site on CMS! */
+ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+
+  font: inherit;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+
+  background-color: #4169E1;
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #4191e1;
+}
+
+.btn.disabled,
+.btn:disabled {
+  cursor: default;
+  opacity: 0.5;
+  background-color: #ccc;
+}
