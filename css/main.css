@@ -58,25 +58,25 @@
 --------------------------------------------------------------------- */
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 1810px;
 
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
   font-weight: 400;
-
-  color: #404040;
+  line-height: 25px;
+  color: #1d1d1d;
 }
 
 a {
-  color: #4169E1;
+  color: #171717;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #1f49c7;
+  color: #4b2d7f;
 }
 
 img {
@@ -111,14 +111,19 @@ input[type="radio"].visually-hidden {
 
 .btn {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 20px 25px;
+  margin-right: 22px;
 
   font: inherit;
   text-align: center;
   color: #fff;
   vertical-align: middle;
+  font-size: 15px;
+  line-height: 13px;
+  text-transform: uppercase;
 
-  background-color: #4169E1;
+  border-radius: 10px;
+  background-color: #f42267;
   border: none;
 
   cursor: pointer;
@@ -127,12 +132,99 @@ input[type="radio"].visually-hidden {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background-color: #4191e1;
+  box-shadow: 0 10px 0 #ff5990;
 }
 
 .btn.disabled,
 .btn:disabled {
   cursor: default;
   opacity: 0.5;
-  background-color: #ccc;
+  background-color: #f42267;
+}
+
+/* Header
+--------------------------------------------------------------------- */
+
+.main-header {
+  height: 946px;
+
+  color: #fff;
+
+  background-color: #511b47;
+  background-image: url(../img/header-bg.png), linear-gradient(45deg, #ed1b33 0%, #442e82 99%, #442e82 100%);
+}
+
+.index-logo {
+  width: 69px;
+  height: 62px;
+}
+
+.logo-title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 43.5px;
+}
+
+.site-nav {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.site-nav a {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.icon-menu {
+  width: 30px;
+  height: 24px;
+}
+
+.intro {
+  width: 780px;
+}
+
+.intro-pre-slogan {
+  width: 542px;
+  height: 43px;
+}
+
+.intro .slogan {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 67px;
+}
+
+.intro p {
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.btn-round {
+  border-radius: 30px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
+}
+
+.btn-intro-pink,
+.btn-intro-purple {
+  padding: 25px 50px;
+
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 14px;
+}
+
+.btn-intro-purple {
+  background-color: #5f3fb8;
+  opacity: 0.7;
+}
+
+.header-main-img {
+  width: 846px;
+  height: 782px;
 }
