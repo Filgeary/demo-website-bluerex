@@ -58,9 +58,8 @@
 --------------------------------------------------------------------- */
 
 body {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  width: 1810px;
 
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 14px;
@@ -142,6 +141,12 @@ input[type="radio"].visually-hidden {
   background-color: #f42267;
 }
 
+.container {
+  width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 /* Header
 --------------------------------------------------------------------- */
 
@@ -150,27 +155,63 @@ input[type="radio"].visually-hidden {
 
   color: #fff;
 
-  background-color: #511b47;
-  background-image: url(../img/header-bg.png), linear-gradient(45deg, #ed1b33 0%, #442e82 99%, #442e82 100%);
+  background: #511b47 url(../img/header-bg-full.png) no-repeat 0 0;
+  background-size: cover;
+}
+
+/* background-color: linear-gradient(45deg, #ed1b33 0%, #442e82 99%, #442e82 100%); */
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 180px;
 }
 
 .index-logo {
   width: 69px;
   height: 62px;
+  margin-top: 47px;
+  margin-right: 10px;
 }
 
 .logo-title {
+  position: relative;
+  margin-top: 55px;
+  padding-left: 80px;
+
   color: #fff;
   font-size: 42px;
   font-weight: 600;
   line-height: 43.5px;
 }
 
-.site-nav {
-  margin: 0;
-  padding: 0;
+.logo-title::before {
+  position: absolute;
+  content: "";
 
-  list-style: none;
+  width: 69px;
+  height: 62px;
+  top: -12px;
+  left: 0;
+
+  background-image: url(../img/logo.svg);
+}
+
+.logo-title:hover {
+  color: #fff;
+}
+
+.site-nav {
+  margin-top: 63px;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.site-nav li:last-child {
+  margin-right: 0;
 }
 
 .site-nav a {
@@ -180,29 +221,49 @@ input[type="radio"].visually-hidden {
   line-height: 18px;
 }
 
+.link-menu {
+  position: relative;
+  top: 5px;
+}
+
 .icon-menu {
   width: 30px;
   height: 24px;
 }
 
 .intro {
-  width: 780px;
+  position: relative;
 }
 
 .intro-pre-slogan {
   width: 542px;
   height: 43px;
+  margin-bottom: 15px;
 }
 
 .intro .slogan {
+  margin: 0;
+  margin-bottom: 35px;
+
   font-size: 65px;
   font-weight: 600;
   line-height: 67px;
 }
 
 .intro p {
+  margin: 0;
+  margin-bottom: 70px;
+
   font-size: 23px;
   line-height: 32px;
+}
+
+.intro .header-main-img {
+  position: absolute;
+  top: -114px;
+  left: 490px;
+  width: 846px;
+  height: 782px;
 }
 
 .btn-round {
@@ -221,10 +282,14 @@ input[type="radio"].visually-hidden {
 
 .btn-intro-purple {
   background-color: #5f3fb8;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
-.header-main-img {
-  width: 846px;
-  height: 782px;
+.btn-intro-pink:hover,
+.btn-intro-pink:focus,
+.btn-intro-pink:active,
+.btn-intro-purple:hover,
+.btn-intro-purple:focus,
+.btn-intro-purple:active {
+  box-shadow: none;
 }
