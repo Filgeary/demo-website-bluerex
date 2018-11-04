@@ -83,6 +83,8 @@ img {
   height: auto;
 }
 
+/* TODO: Find More */
+
 /* Warning! Delete global <ul> styling if site on CMS! */
 ul {
   margin: 0;
@@ -167,17 +169,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 180px;
 }
 
-.index-logo {
-  width: 69px;
-  height: 62px;
-  margin-top: 47px;
-  margin-right: 10px;
-}
-
 .logo-title {
-  position: relative;
-  margin-top: 55px;
-  padding-left: 80px;
+  margin-top: 27px;
 
   color: #fff;
   font-size: 42px;
@@ -185,20 +178,16 @@ input[type="radio"].visually-hidden {
   line-height: 43.5px;
 }
 
-.logo-title::before {
-  position: absolute;
-  content: "";
-
-  width: 69px;
-  height: 62px;
-  top: -12px;
-  left: 0;
-
-  background-image: url(../img/logo.svg);
+.logo-title:hover,
+.logo-title:focus {
+  color: #fff;
 }
 
-.logo-title:hover {
-  color: #fff;
+.index-logo {
+  position: relative;
+  top: 13px;
+  width: 69px;
+  height: 62px;
 }
 
 .site-nav {
@@ -260,7 +249,7 @@ input[type="radio"].visually-hidden {
 
 .intro .header-main-img {
   position: absolute;
-  top: -114px;
+  top: -112px;
   left: 490px;
   width: 846px;
   height: 782px;
