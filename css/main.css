@@ -128,6 +128,7 @@ input[type="radio"].visually-hidden {
   vertical-align: middle;
   font-size: 15px;
   line-height: 13px;
+  font-weight: 600;
   text-transform: uppercase;
 
   border-radius: 10px;
@@ -251,7 +252,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 15px;
 }
 
-.intro .slogan {
+.intro-slogan {
   position: relative;
   left: -70px;
 
@@ -291,7 +292,6 @@ input[type="radio"].visually-hidden {
   padding: 25px 50px;
 
   font-size: 17px;
-  font-weight: 600;
   line-height: 14px;
 }
 
@@ -307,4 +307,67 @@ input[type="radio"].visually-hidden {
 .btn-intro-purple:focus,
 .btn-intro-purple:active {
   box-shadow: none;
+}
+
+/* Company
+--------------------------------------------------------------------- */
+
+.company {
+  background-image: url(../img/world-map.png);
+}
+
+.company-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-left-col {
+  width: 590px;
+  margin-right: 20px;
+}
+
+.company-pre-slogan {
+  width: 389px;
+  height: 33px;
+  margin-top: 100px;
+}
+
+.company-slogan {
+  margin: 0;
+  margin-bottom: 40px;
+
+  color: #484848;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.44px;
+}
+
+.company-list {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.company-list-link {
+  padding: 15px 25px;
+  margin-right: 20px;
+}
+
+.company-list-link:hover,
+.company-list-link:focus,
+.company-list-link:active {
+  color: #fff;
+
+  border-radius: 30px;
+  background-color: #f42267;
+}
+
+.company p {
+  margin-bottom: 55px;
+}
+
+.company-right-col-img {
+  position: relative;
+  top: 70px;
+  left: 50px;
 }
