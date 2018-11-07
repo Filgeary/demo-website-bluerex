@@ -319,7 +319,9 @@ input[type="radio"].visually-hidden {
 
 .company {
   width: 100%;
-  background-image: url(../img/world-map.png);
+  height: 660px;
+  background: #fff url(../img/world-map.png) no-repeat center center;
+  background-size: cover;
 }
 
 .company-wrapper {
