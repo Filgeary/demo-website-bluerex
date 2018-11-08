@@ -166,9 +166,7 @@ input[type="radio"].visually-hidden {
 
   color: #fff;
 
-  background-image: url(../img/header-bg.png), linear-gradient(45deg, #ed1b33 0%, #442e82 99%, #442e82 100%);
-  background-repeat: no-repeat, no-repeat;
-  background-position: center, center;
+  background: #511b47 url(../img/header-bg-full.png) no-repeat center;
   background-size: cover;
 }
 
@@ -495,7 +493,7 @@ background-size: cover; */
 
   color: #fff;
 
-  background: #6766c2 url(../img/story-bg.png) no-repeat center;
+  background: #6766c2 url(../img/story-bg-full.png) no-repeat center;
   background-size: cover;
 }
 
