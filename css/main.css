@@ -728,3 +728,111 @@ input[type="radio"].visually-hidden {
   margin-bottom: 120px;
   margin-left: 540px;
 }
+
+/* Clients
+--------------------------------------------------------------------- */
+
+.clients {
+  width: auto;
+  min-height: 470px;
+
+  background-color: #4b2d7f;
+}
+
+.clients-logo {
+  padding-top: 110px;
+  padding-left: 120px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.clients-list li {
+  display: inline-block;
+}
+
+.clients-list a {
+  display: block;
+  margin-right: 140px;
+  margin-bottom: 90px;
+}
+
+.clients-list a:hover,
+.clients-list a:focus,
+.clients-list a:active {
+  opacity: 0.5;
+}
+
+.bg-clients_logo_cisco {
+  width: 123px; 
+  height: 69px;
+
+  background: url(../img/clients-logo-sprite.png) -175px -131px;
+}
+
+.bg-clients_logo_adidas {
+  position: relative;
+  top: -10px;
+
+  width: 115px; 
+  height: 78px;
+
+  background: url(../img/clients-logo-sprite.png) -20px -131px;
+}
+
+.bg-clients_logo_lenovo {
+  position: relative;
+  top: 10px;
+  
+  width: 163px; 
+  height: 33px;
+
+  background: url(../img/clients-logo-sprite.png) -385px -20px;
+}
+
+.bg-clients_logo_disney {
+  width: 139px; 
+  height: 58px;
+
+  background: url(../img/clients-logo-sprite.png) -20px -249px;
+}
+
+.bg-clients_logo_amazon {
+  position: relative;
+  top: 25px;
+
+  width: 141px; 
+  height: 43px;
+
+  background: url(../img/clients-logo-sprite.png) -199px -249px;
+}
+
+.bg-clients_logo_puma {
+  position: relative;
+  left: -40px;
+
+  width: 140px; 
+  height: 71px;
+
+  background: url(../img/clients-logo-sprite.png) -20px -20px;
+}
+
+.bg-clients_logo_apple {
+  position: relative;
+  left: -30px;
+
+  width: 65px;
+  height: 78px;
+
+  background: url(../img/clients-logo-sprite.png) -385px -93px;
+}
+
+.bg-clients_logo_mini {
+  width: 145px; 
+  height: 64px;
+
+  background: url(../img/clients-logo-sprite.png) -200px -20px;
+}
