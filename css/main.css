@@ -710,16 +710,21 @@ input[type="radio"].visually-hidden {
   margin-bottom: 65px;
 }
 
-.works-gallery img {
+.works-gallery a {
   margin-right: 29px;
   margin-bottom: 30px;
 }
 
-.works-gallery img:nth-child(3n) {
+.works-gallery a:nth-child(3n) {
   margin-right: 0;
+}
+
+.works-gallery img {
+  width: 378px;
+  height: 316px;
 }
 
 .works-btn {
   margin-bottom: 120px;
-  margin-left: 545px;
+  margin-left: 540px;
 }
