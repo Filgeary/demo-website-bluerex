@@ -537,6 +537,7 @@ input[type="radio"].visually-hidden {
 }
 
 .services-col {
+  position: relative;
   width: 590px;
   margin-right: 25px;
 }
@@ -624,6 +625,14 @@ input[type="radio"].visually-hidden {
 .services video {
   margin-top: 175px;
   margin-left: 28px;
+}
+
+.services-icon-play {
+  position: absolute;
+  top: 355px;
+  left: 270px;
+
+  cursor: pointer;
 }
 
 /* Works
