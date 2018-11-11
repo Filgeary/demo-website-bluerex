@@ -785,7 +785,7 @@ input[type="radio"].visually-hidden {
 
 .bg-clients_logo_lenovo {
   position: relative;
-  top: 10px;
+  top: 15px;
   
   width: 163px; 
   height: 33px;
@@ -802,7 +802,7 @@ input[type="radio"].visually-hidden {
 
 .bg-clients_logo_amazon {
   position: relative;
-  top: 25px;
+  top: 35px;
 
   width: 141px; 
   height: 43px;
@@ -831,8 +831,14 @@ input[type="radio"].visually-hidden {
 }
 
 .bg-clients_logo_mini {
+  position: relative;
+  top: 10px;
+
   width: 145px; 
   height: 64px;
 
   background: url(../img/clients-logo-sprite.png) -200px -20px;
 }
+
+/* Testimonials
+--------------------------------------------------------------------- */
