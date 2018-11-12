@@ -931,3 +931,81 @@ input[type="radio"].visually-hidden {
   width: 365px;
   height: 573px;
 }
+
+/* Help
+--------------------------------------------------------------------- */
+
+.help {
+  width: 100%;
+  min-height: 455px;
+  padding-top: 85px;
+
+  color: #fff;
+
+  background-color: #f42267;
+}
+
+.help-slogan {
+  margin: 0;
+  margin-bottom: 15px;
+
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+
+.help-slogan-after {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+
+.help p {
+  margin-bottom: 65px;
+
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.help-form label {
+  margin-right: 20px;
+}
+
+.help-form input {
+  width: 490px;
+  padding: 20px;
+  padding-left: 40px;
+  
+  color: #fff;
+  font-size: 15px;
+
+  border: rgba(255, 255, 255, 0.35);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+.help-form input::placeholder {
+  color: #fff;
+}
+
+.help-btn {
+  position: relative;
+  top: -2px;
+
+  padding: 20px 43px;
+
+  border-radius: 10px;
+  background-color: #4b2d7f;
+}
+
+.help-btn:hover,
+.help-btn:focus,
+.help-btn:active {
+  box-shadow: 0 7px 0 #a57ee9;
+}

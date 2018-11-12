@@ -280,21 +280,29 @@
 
     <section class="help">
 
-      <h2>Need Help?</h2>
+      <h2 class="visually-hidden">Help</h2>
 
-      <h3>Don`t Forget to Contact With Us</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque perspiciatis nostrum quod veritatis,
-        dolor ab blanditiis doloremque illo quas nemo modi eius debitis.</p>
+      <div class="help-wrapper container">
 
-      <form action="#" method="post">
-        <label for="name" aria-label="name">
-          <input type="text" name="name" id="name" placeholder="Name">
-        </label>
-        <label for="email" aria-label="email">
-          <input type="email" name="email" id="email" placeholder="Email">
-        </label>
-        <button class="btn" type="submit">Submit</button>
-      </form>
+        <h2 class="help-slogan">Need Help?</h2>
+
+        <h3 class="help-slogan-after">Don't Forget to Contact With Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eaque perspiciatis nostrum quod veritatis
+          eaque, dolor ab blanditiis consectetur doloremque illo quas nemo modi eius debitis.</p>
+
+        <form class="help-form" action="#" method="post">
+          <label for="help-form-name" aria-label="name">
+            <input type="text" name="name" id="help-form-name" placeholder="Name">
+          </label>
+
+          <label for="help-form-email" aria-label="email">
+            <input type="email" name="email" id="help-form-email" placeholder="Email">
+          </label>
+
+          <button class="btn help-btn" type="submit">Submit</button>
+        </form>
+
+      </div>
 
     </section>
 
