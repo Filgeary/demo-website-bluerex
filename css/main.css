@@ -967,6 +967,7 @@ input[type="radio"].visually-hidden {
 
 .help p {
   margin-bottom: 65px;
+  padding-right: 30px;
 
   font-size: 18px;
   line-height: 25px;
@@ -994,6 +995,11 @@ input[type="radio"].visually-hidden {
   color: #fff;
 }
 
+.help-form input:focus {
+  outline: none;
+  box-shadow: inset 0px -3px 5px 1px #db0a50;
+}
+
 .help-btn {
   position: relative;
   top: -2px;
@@ -1008,4 +1014,61 @@ input[type="radio"].visually-hidden {
 .help-btn:focus,
 .help-btn:active {
   box-shadow: 0 7px 0 #a57ee9;
+}
+
+/* Social
+--------------------------------------------------------------------- */
+
+.social {
+  width: auto;
+  min-height: 190px;
+
+  background-color: #4b2d7f;
+}
+
+.social-wrapper {
+  padding: 80px 145px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social-list li {
+  display: inline-block;
+}
+
+.social-list-link,
+.social-list-link-last {
+  position: relative;
+
+  display: block;
+  padding-right: 40px;
+  
+  font-size: 27px;
+  line-height: 38px;
+  color: #fff;
+}
+
+.social-list-link::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  right: 0;
+
+  width: 2px;
+  height: 25px;
+
+  background-color: #7647c7;
+}
+
+.social-list-link:hover,
+.social-list-link:focus,
+.social-list-link:active,
+.social-list-link-last:hover,
+.social-list-link-last:focus,
+.social-list-link-last:active {
+  color: rgba(255, 255, 255, 0.35);
 }
