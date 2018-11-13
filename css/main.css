@@ -35,25 +35,6 @@
        url('../fonts/montserrat-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* poppins-600 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
-       url('../fonts/poppins-v5-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/poppins-v5-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-700 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Poppins Bold'), local('Poppins-Bold'),
-       url('../fonts/poppins-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/poppins-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
 /* Global styles
 --------------------------------------------------------------------- */
 
@@ -1071,4 +1052,70 @@ input[type="radio"].visually-hidden {
 .social-list-link-last:focus,
 .social-list-link-last:active {
   color: rgba(255, 255, 255, 0.35);
+}
+
+/* Footer
+--------------------------------------------------------------------- */
+
+.main-footer {
+  width: 100%;
+  min-height: 680px;
+
+  background: url(../img/world-map.png) no-repeat center;
+  background-size: cover;
+}
+
+.main-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 115px;
+}
+
+.main-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 590px;
+  margin-bottom: 95px;
+}
+
+.main-footer-col {
+  width: 280px;
+}
+
+.main-footer-heading {
+  position: relative;
+  left: -15px;
+
+  margin: 0;
+  margin-bottom: 20px;
+  color: #4b2d7f;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.main-footer-list-link {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.main-footer-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-bottom: 95px;
+  width: 590px;
+}
+
+.main-footer-gallery img {
+  width: 281px;
+  height: 213px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main-footer-gallery img:nth-child(2n) {
+  margin-right: 0;
 }
