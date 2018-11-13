@@ -830,8 +830,10 @@ input[type="radio"].visually-hidden {
 
   color: #fff;
 
-  background: #1d1d1d url(../img/testimonials-bg-full.png) no-repeat center;
-  background-size: cover;
+  background: url(../img/testimonials-bg-1.png), url(../img/testimonials-bg-2.png), #000;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 340px 0, center;
+  background-size: auto, cover;
 }
 
 .testimonials-wrapper {
