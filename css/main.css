@@ -923,7 +923,8 @@ input[type="radio"].visually-hidden {
 
   color: #fff;
 
-  background-color: #f42267;
+  background: #f42267 url(../img/help-bg.png) no-repeat center;
+  background-size: cover;
 }
 
 .help-slogan {
