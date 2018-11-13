@@ -1059,7 +1059,7 @@ input[type="radio"].visually-hidden {
 
 .main-footer {
   width: 100%;
-  min-height: 680px;
+  min-height: 805px;
 
   background: url(../img/world-map.png) no-repeat center;
   background-size: cover;
@@ -1118,4 +1118,18 @@ input[type="radio"].visually-hidden {
 
 .main-footer-gallery img:nth-child(2n) {
   margin-right: 0;
+}
+
+.main-footer-copyright {
+  padding: 50px 20px;
+  min-height: 125px;
+  background-color: #f6f6f6;
+}
+
+.main-footer-text {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
 }
