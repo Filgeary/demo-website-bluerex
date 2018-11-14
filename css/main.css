@@ -113,6 +113,7 @@ input[type="radio"].visually-hidden {
   text-transform: uppercase;
 
   border-radius: 10px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
   background-color: #f42267;
   border: none;
 
@@ -271,7 +272,6 @@ input[type="radio"].visually-hidden {
 
 .btn-round {
   border-radius: 30px;
-  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
 }
 
 .btn-intro-pink,
@@ -358,6 +358,7 @@ input[type="radio"].visually-hidden {
   color: #fff;
 
   border-radius: 30px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
   background-color: #f42267;
 }
 
@@ -365,6 +366,7 @@ input[type="radio"].visually-hidden {
   color: #fff;
 
   border-radius: 30px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
   background-color: #f42267;
 }
 
@@ -675,6 +677,7 @@ input[type="radio"].visually-hidden {
   color: #fff;
 
   border-radius: 30px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
   background-color: #f42267;
 }
 
@@ -682,6 +685,7 @@ input[type="radio"].visually-hidden {
   color: #fff;
 
   border-radius: 30px;
+  box-shadow: 1px 4px 16px rgba(1, 2, 2, 0.35);
   background-color: #f42267;
 }
 
@@ -970,7 +974,7 @@ input[type="radio"].visually-hidden {
   color: #fff;
   font-size: 15px;
 
-  border: rgba(255, 255, 255, 0.35);
+  border: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.35);
 }
