@@ -94,7 +94,7 @@ input[type="radio"].visually-hidden {
 
   white-space: nowrap;
 
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
   overflow: hidden;
 }
 
@@ -229,7 +229,7 @@ input[type="radio"].visually-hidden {
 .icon-menu {
   position: relative;
   z-index: 5;
-  
+
   width: 30px;
   height: 24px;
 
@@ -301,6 +301,8 @@ input[type="radio"].visually-hidden {
 }
 
 .menu-list li {
+  margin: 0;
+
   text-align: center;
   border-bottom: 1px solid #ff5990;
 }
