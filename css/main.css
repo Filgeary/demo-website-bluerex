@@ -215,6 +215,8 @@ input[type="radio"].visually-hidden {
 }
 
 .site-nav-link-menu {
+  position: relative;
+
   display: inline-block;
   margin-right: 5px;
 }
@@ -226,20 +228,25 @@ input[type="radio"].visually-hidden {
 }
 
 .icon-menu {
+  position: relative;
+  z-index: 5;
   width: 30px;
   height: 24px;
 
   opacity: 1;
-  transition: 0.35s;
+
+  transition: 0.1s;
 }
 
 .icon-menu-toggle {
   opacity: 0;
-  transition: 0.35s;
+
+  transition: 0.1s;
 }
 
 .icon-xmark {
   position: relative;
+  z-index: 5;
   top: -34px;
   left: 1px;
 
@@ -248,12 +255,79 @@ input[type="radio"].visually-hidden {
   height: 28px;
 
   opacity: 0;
-  transition: 0.35s;
+
+  transition: 0.1s;
 }
 
 .icon-xmark-toggle {
   opacity: 1;
-  transition: 0.35s;
+
+  transition: 0.1s;
+}
+
+.menu-wrapper {
+  position: absolute;
+  z-index: 3;
+
+  display: none;
+  top: 50px;
+  right: -25px;
+
+  min-width: 250px;
+
+  background-color: #db0a50;
+}
+
+.menu-wrapper-toggle {
+  display: block;
+}
+
+.menu-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list::before {
+  position: absolute;
+  content: "";
+  top: -60px;
+  right: 0;
+
+  width: 50px;
+  height: 60px;
+
+  background-color: #db0a50;
+}
+
+.menu-list li {
+  text-align: center;
+  border-bottom: 1px solid #ff5990;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+}
+
+.menu-list li:hover,
+.menu-list li:focus,
+.menu-list li:active {
+  background-color: #f42267;
+}
+
+.menu-list-link {
+  display: block;
+  padding: 10px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.menu-list-link:hover,
+.menu-list-link:focus,
+.menu-list-link:active {
+  color: #fff;
 }
 
 .intro {
