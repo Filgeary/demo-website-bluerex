@@ -1,6 +1,6 @@
 # demo-website
 
-training project - Fixed Width website from PSD
+Training Project - Fixed Width Website from PSD
 
 HTML, CSS, JavaScript, Git, GitHub
 
