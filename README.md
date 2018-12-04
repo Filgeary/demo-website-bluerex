@@ -2,10 +2,10 @@
 
 Training Project - Fixed Width Website from PSD
 
-HTML, CSS, JavaScript, Git, GitHub
+- HTML, CSS, JavaScript, Git, GitHub
 
-Flexbox, SVG, CSS Animation (photo-gallery), CSS Sprite, Dropdown menu on JS
+- Flexbox, SVG, CSS Animation (photo-gallery), CSS Sprite, Dropdown menu on JS
 
-Image optimization, Minify CSS and JS files
+- Image optimization, Minify CSS and JS files
 
-Supports modern browsers and IE11
+- Supports modern browsers and IE11
