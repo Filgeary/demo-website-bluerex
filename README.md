@@ -1,4 +1,4 @@
-# demo-website
+# demo-website-2-bluerex
 
 Training Project - Fixed Width Website from PSD
 
