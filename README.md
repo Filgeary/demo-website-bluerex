@@ -1,6 +1,6 @@
 # demo-website-bluerex
 
-Training Project - Fixed Width Website from PSD
+Training project - Single Page Fixed Width website from PSD
 
 - HTML, CSS, JavaScript, Git, GitHub
 
