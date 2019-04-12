@@ -6,6 +6,6 @@ Training project - Single Page Fixed Width website from PSD
 
 - Flexbox, SVG, CSS Animation (photo-gallery), CSS Sprite, Dropdown menu on JS
 
-- Image optimization, Minify CSS and JS files
+- Image optimization, Minification CSS and JS files
 
 - Supports modern browsers and IE11
